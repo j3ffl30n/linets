@@ -1,0 +1,60 @@
+@import "~bootstrap/scss/bootstrap";
+
+.header 
+//    background: url(./../img/bg.jpeg) no-repeat center;
+    background: transparent
+    background-size: cover;
+    min-height: 40vh;
+
+.header .navbar
+  background-color: transparent !important;
+
+.border-secondary
+    border-color: #d7d9da !important;
+
+.header .navbar
+    background-color: transparent !important;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+
+.carousel-item>img 
+    max-height: 600px !important;
+.carousel-caption
+    bottom: 120px;
+
+.gotop
+    position: absolute;
+    right: 5%;
+    bottom: 50%;
+    z-index: 80;
+
+@media (max-width: 768px) 
+
+    h1
+        font-size: 1.3rem !important;
+    h3
+        font-size: 1.1rem !important;
+    h5
+        font-size: 1.0rem !important;
+    p
+        font-size: 0.9rem !important;
+    .w-50
+        width: 100% !important;
+    #title-foot, #logo
+        padding: 0 !important
+        margin: 0 !important
+
+@media (max-width: 1024px) 
+    .nav-link 
+        color: #e9ecef !important;
+        text-transform: uppercase;
+        text-align: center
+
+    .header .navbar
+        background-color: #8080808a !important;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        z-index: 100;
