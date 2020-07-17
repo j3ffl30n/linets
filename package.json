@@ -26,7 +26,7 @@
     "bootstrap": "4.3.1",
     "file-loader": "^4.1.0",
     "jquery": "^3.4.1",
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.19",
     "popper.js": "^1.15.0",
     "rfs": "^8.0.4",
     "url-loader": "^2.1.0",
